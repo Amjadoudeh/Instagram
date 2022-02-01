@@ -12,21 +12,7 @@ struct ContentView: View {
         VStack(spacing: 0.0) {
             Header()
             
-            ScrollView(.horizontal, showsIndicators: false)
-            {
-                HStack(spacing: 15.0 ) {
-                    Story()
-                    Story()
-                    Story()
-                    Story()
-                    Story()
-                    Story()
-                    Story()
-                    Story()
-                    Story()
-                    Story()
-                }.padding(.horizontal, 8)
-            }.padding(.vertical,10)
+            Stories()
             Spacer()
         }
     }
@@ -69,5 +55,25 @@ struct Story: View {
             Text("my Story")
                 .font(.caption)
         }
+    }
+}
+
+struct Stories: View {
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: false)
+        {
+            HStack(spacing: 15.0 ) {
+                Story()
+                Story()
+                Story()
+                Story()
+                Story()
+                Story()
+                Story()
+                Story()
+                Story()
+                Story()
+            }.padding(.horizontal, 8)
+        }.padding(.vertical,10)
     }
 }
