@@ -27,12 +27,11 @@ struct Header: View {
         HStack{
             Image("logo")
             Spacer()
-            HStack {
+            HStack(spacing: 20.0) {
                 Image("heart")
                 Image("add")
                 Image("messenger")
             }
-            .padding(.horizontal, 20)
         }
         .padding(.horizontal, 15)
         .padding(.vertical, 3)
