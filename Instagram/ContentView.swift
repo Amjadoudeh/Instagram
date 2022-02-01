@@ -11,7 +11,22 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0.0) {
             Header()
-            Story()
+            
+            ScrollView(.horizontal, showsIndicators: false)
+            {
+                HStack(spacing: 15.0 ) {
+                    Story()
+                    Story()
+                    Story()
+                    Story()
+                    Story()
+                    Story()
+                    Story()
+                    Story()
+                    Story()
+                    Story()
+                }.padding(.horizontal, 8)
+            }.padding(.vertical,10)
             Spacer()
         }
     }
@@ -49,6 +64,10 @@ struct Story: View {
                 .overlay(
                     Circle().stroke(LinearGradient(colors: [.red, .purple, .red, .orange, .red], startPoint: .topTrailing, endPoint: .bottomTrailing)).frame(width: 67, height: 67)
                 )
+                .frame(width: 70, height: 70)
+            
+            Text("my Story")
+                .font(.caption)
         }
     }
 }
