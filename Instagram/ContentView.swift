@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 0.0) {
             Header()
+            Story()
             Spacer()
         }
     }
@@ -28,12 +29,26 @@ struct Header: View {
             Image("logo")
             Spacer()
             HStack(spacing: 20.0) {
-                Image("heart")
                 Image("add")
+                Image("heart")
                 Image("messenger")
             }
         }
         .padding(.horizontal, 15)
         .padding(.vertical, 3)
+    }
+}
+
+struct Story: View {
+    var body: some View {
+        VStack{
+            Image("profile")
+                .resizable()
+                .frame(width: 60, height: 60)
+                .cornerRadius(50)
+                .overlay(
+                    Circle().stroke(LinearGradient(colors: [.red, .purple, .red, .orange, .red], startPoint: .topTrailing, endPoint: .bottomTrailing)).frame(width: 67, height: 67)
+                )
+        }
     }
 }
