@@ -16,6 +16,8 @@ struct ContentView: View {
             
             Divider()
             
+           PostHeader()
+            
             Spacer()
         }
     }
@@ -78,5 +80,26 @@ struct Stories: View {
                 Story(image: "profile8", name: "Lor")
             }.padding(.horizontal, 8)
         }.padding(.vertical,10)
+    }
+}
+
+struct PostHeader: View {
+    var body: some View {
+        HStack{
+            HStack {
+                Image("profile")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .cornerRadius(50)
+                
+                Text("Amjad")
+                    .font(.caption)
+                    .fontWeight(.bold)
+                
+            }
+            Spacer()
+            
+            Image("more")
+        } .padding()
     }
 }
