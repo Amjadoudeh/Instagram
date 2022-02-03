@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct Story: View {
-    var image: String = "profile"
-    var name: String = "Amjad"
+    var image: String = "amjad1"
+    var name: String = "Your story"
     var body: some View {
         VStack{
             Image(image)

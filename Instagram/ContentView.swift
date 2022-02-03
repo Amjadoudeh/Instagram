@@ -13,8 +13,16 @@ struct ContentView: View {
             Header()
             Stories()
             Divider()
-            PostHeader()
-            PostContent()
+            
+            VStack(alignment: .leading){
+            
+                PostHeader()
+                PostContent()
+                Text("Liked by Iyad Ou and Others")
+                    .font(.footnote)
+                    .fontWeight(.bold)
+                
+            }
             Spacer()
         }
     }

@@ -10,7 +10,7 @@ import SwiftUI
 struct PostContent: View {
     var body: some View {
         VStack{
-            Image("profile2")
+            Image("posty")
                 .resizable()
                 .frame(width: .infinity)
                 .aspectRatio( contentMode: .fit)

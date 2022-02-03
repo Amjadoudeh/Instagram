@@ -13,7 +13,7 @@ struct Stories: View {
         {
             HStack(spacing: 15.0 ) {
                 Story()
-                Story(image: "profile2", name: "Iyad")
+                Story(image: "SC", name: "SoundCloud")
                 Story(image: "profile3", name: "Ahmad")
                 Story(image: "profile4", name: "Afaf")
                 Story(image: "profile5", name: "Arij")

@@ -11,7 +11,7 @@ struct PostHeader: View {
     var body: some View {
         HStack{
             HStack {
-                Image("profile")
+                Image("amjad1")
                     .resizable()
                     .frame(width: 30, height: 30)
                     .cornerRadius(50)
