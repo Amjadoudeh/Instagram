@@ -13,16 +13,7 @@ struct ContentView: View {
             Header()
             Stories()
             Divider()
-            
-            VStack(alignment: .leading){
-            
-                PostHeader()
-                PostContent()
-                Text("Liked by Iyad Ou and Others")
-                    .font(.footnote)
-                    .fontWeight(.bold)
-                
-            }
+            Post()
             Spacer()
         }
     }
@@ -33,10 +24,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-
-
-
-
-
