@@ -15,6 +15,11 @@ struct ContentView: View {
             Divider()
             PostHeader()
             
+            Image("profile2")
+                .resizable()
+                .frame(width: .infinity)
+                .aspectRatio( contentMode: .fit)
+            
             Spacer()
         }
     }
