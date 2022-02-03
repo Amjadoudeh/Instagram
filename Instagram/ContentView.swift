@@ -13,6 +13,9 @@ struct ContentView: View {
             Header()
             
             Stories()
+            
+            Divider()
+            
             Spacer()
         }
     }
