@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct Post: View {
+    var image: String = "posty"
+    var description : String = "About the Last day of 2021"
+    
     var body: some View {
         VStack(alignment: .leading)
         {
             PostHeader()
-            PostContent()
+            PostContent(image: image)
             Text("Liked by Iyad Ou and Others")
                 .font(.footnote)
                 .fontWeight(.bold)
                 .padding(.horizontal, 12)
             
-            Text("About the Last day of 2021")
+            Text(description)
                 .font(.footnote)
                 .frame(width:.infinity)
                 .padding(.horizontal, 12)
