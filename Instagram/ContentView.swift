@@ -41,9 +41,11 @@ struct Header: View {
 }
 
 struct Story: View {
+    var image: String = "profile"
+    var name: String = "Amjad"
     var body: some View {
         VStack{
-            Image("profile")
+            Image(image)
                 .resizable()
                 .frame(width: 60, height: 60)
                 .cornerRadius(50)
@@ -52,7 +54,7 @@ struct Story: View {
                 )
                 .frame(width: 70, height: 70)
             
-            Text("my Story")
+            Text(name)
                 .font(.caption)
         }
     }
@@ -64,15 +66,13 @@ struct Stories: View {
         {
             HStack(spacing: 15.0 ) {
                 Story()
-                Story()
-                Story()
-                Story()
-                Story()
-                Story()
-                Story()
-                Story()
-                Story()
-                Story()
+                Story(image: "profile2", name: "Iyad")
+                Story(image: "profile3", name: "Ahmad")
+                Story(image: "profile4", name: "Afaf")
+                Story(image: "profile5", name: "Arij")
+                Story(image: "profile6", name: "Elise")
+                Story(image: "profile7", name: "Samer")
+                Story(image: "profile8", name: "Lor")
             }.padding(.horizontal, 8)
         }.padding(.vertical,10)
     }
