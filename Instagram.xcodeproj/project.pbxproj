@@ -14,6 +14,10 @@
 		70DDB58327A9E997002DB49A /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DDB58227A9E997002DB49A /* InstagramTests.swift */; };
 		70DDB58D27A9E997002DB49A /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DDB58C27A9E997002DB49A /* InstagramUITests.swift */; };
 		70DDB58F27A9E997002DB49A /* InstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DDB58E27A9E997002DB49A /* InstagramUITestsLaunchTests.swift */; };
+		70E4EE5227AC8E960084586B /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5127AC8E960084586B /* PostHeader.swift */; };
+		70E4EE5427AC8F380084586B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5327AC8F380084586B /* Header.swift */; };
+		70E4EE5627AC8F530084586B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5527AC8F530084586B /* Story.swift */; };
+		70E4EE5827AC8F6A0084586B /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5727AC8F6A0084586B /* Stories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		70DDB58827A9E997002DB49A /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70DDB58C27A9E997002DB49A /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		70DDB58E27A9E997002DB49A /* InstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70E4EE5127AC8E960084586B /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
+		70E4EE5327AC8F380084586B /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		70E4EE5527AC8F530084586B /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		70E4EE5727AC8F6A0084586B /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				70DDB57127A9E995002DB49A /* InstagramApp.swift */,
 				70DDB57327A9E995002DB49A /* ContentView.swift */,
+				70E4EE5327AC8F380084586B /* Header.swift */,
+				70E4EE5527AC8F530084586B /* Story.swift */,
+				70E4EE5727AC8F6A0084586B /* Stories.swift */,
+				70E4EE5127AC8E960084586B /* PostHeader.swift */,
 				70DDB57527A9E996002DB49A /* Assets.xcassets */,
 				70DDB57727A9E996002DB49A /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E4EE5427AC8F380084586B /* Header.swift in Sources */,
 				70DDB57427A9E995002DB49A /* ContentView.swift in Sources */,
 				70DDB57227A9E995002DB49A /* InstagramApp.swift in Sources */,
+				70E4EE5827AC8F6A0084586B /* Stories.swift in Sources */,
+				70E4EE5227AC8E960084586B /* PostHeader.swift in Sources */,
+				70E4EE5627AC8F530084586B /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
