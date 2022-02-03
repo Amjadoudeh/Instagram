@@ -15,7 +15,7 @@ struct Header: View {
             HStack(spacing: 20.0) {
                 Image("add")
                 Image("heart")
-                Image("messenger")
+                Image("share")
             }
         }
         .padding(.horizontal, 15)

@@ -14,12 +14,7 @@ struct ContentView: View {
             Stories()
             Divider()
             PostHeader()
-            
-            Image("profile2")
-                .resizable()
-                .frame(width: .infinity)
-                .aspectRatio( contentMode: .fit)
-            
+            PostContent()
             Spacer()
         }
     }
@@ -30,6 +25,8 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
 
 
 

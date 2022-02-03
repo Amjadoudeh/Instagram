@@ -23,6 +23,7 @@ struct PostHeader: View {
             Spacer()
             
             Image("more")
-        } .padding()
+        }.padding(.horizontal, 8)
+            .padding(.vertical, 10)
     }
 }

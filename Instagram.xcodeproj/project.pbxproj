@@ -18,6 +18,7 @@
 		70E4EE5427AC8F380084586B /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5327AC8F380084586B /* Header.swift */; };
 		70E4EE5627AC8F530084586B /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5527AC8F530084586B /* Story.swift */; };
 		70E4EE5827AC8F6A0084586B /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5727AC8F6A0084586B /* Stories.swift */; };
+		70E4EE5A27AC92AC0084586B /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4EE5927AC92AC0084586B /* PostContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		70E4EE5327AC8F380084586B /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		70E4EE5527AC8F530084586B /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		70E4EE5727AC8F6A0084586B /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		70E4EE5927AC92AC0084586B /* PostContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				70E4EE5527AC8F530084586B /* Story.swift */,
 				70E4EE5727AC8F6A0084586B /* Stories.swift */,
 				70E4EE5127AC8E960084586B /* PostHeader.swift */,
+				70E4EE5927AC92AC0084586B /* PostContent.swift */,
 				70DDB57527A9E996002DB49A /* Assets.xcassets */,
 				70DDB57727A9E996002DB49A /* Preview Content */,
 			);
@@ -271,6 +274,7 @@
 			files = (
 				70E4EE5427AC8F380084586B /* Header.swift in Sources */,
 				70DDB57427A9E995002DB49A /* ContentView.swift in Sources */,
+				70E4EE5A27AC92AC0084586B /* PostContent.swift in Sources */,
 				70DDB57227A9E995002DB49A /* InstagramApp.swift in Sources */,
 				70E4EE5827AC8F6A0084586B /* Stories.swift in Sources */,
 				70E4EE5227AC8E960084586B /* PostHeader.swift in Sources */,
