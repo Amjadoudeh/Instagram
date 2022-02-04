@@ -20,6 +20,7 @@ struct HomeView: View {
             Post(image: "dog", description: "My babay")
             Post(image: "SC", description: "What's next in Music is first at SoundCloud")
             }
+            
         }
     }
 }

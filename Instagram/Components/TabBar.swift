@@ -10,23 +10,31 @@ import SwiftUI
 struct TabBar: View {
     var body: some View {
         TabView{
-            Divider()
-            HStack{
-                Image("home")
-                Spacer()
-                Image("search")
-                Spacer()
-                Image("reels")
-                Spacer()
-                Image("shop")
-                Spacer()
-                Image("amjad1")
-                    .resizable()
-                    .frame(width: 24, height: 24)
-                    .cornerRadius(50)
-            }
-            .padding(.horizontal,25)
-            .padding(.top, 10)
+            
+            HomeView()
+                .tabItem{
+                    Image("home")
+                }
+            
+            Image("search")
+                .tabItem{
+                    Image("search")
+                }
+            
+            Image("reels")
+                .tabItem{
+                    Image("reels")
+                }
+            
+            Image("shop")
+                .tabItem{
+                    Image("shop")
+                }
+            
+//            Image("amjad1")
+//                .resizable()
+//                .frame(width: 24, height: 24)
+//                .cornerRadius(50)
             
         }
     }
