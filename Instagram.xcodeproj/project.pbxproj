@@ -108,15 +108,9 @@
 		70DDB57027A9E995002DB49A /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				70E4EE5F27AD85640084586B /* Components */,
 				70DDB57127A9E995002DB49A /* InstagramApp.swift */,
 				70DDB57327A9E995002DB49A /* ContentView.swift */,
-				70E4EE5327AC8F380084586B /* Header.swift */,
-				70E4EE5527AC8F530084586B /* Story.swift */,
-				70E4EE5727AC8F6A0084586B /* Stories.swift */,
-				70E4EE5127AC8E960084586B /* PostHeader.swift */,
-				70E4EE5927AC92AC0084586B /* PostContent.swift */,
-				70E4EE5B27AC99B40084586B /* Post.swift */,
-				70E4EE5D27ACA03D0084586B /* TabBar.swift */,
 				70DDB57527A9E996002DB49A /* Assets.xcassets */,
 				70DDB57727A9E996002DB49A /* Preview Content */,
 			);
@@ -146,6 +140,20 @@
 				70DDB58E27A9E997002DB49A /* InstagramUITestsLaunchTests.swift */,
 			);
 			path = InstagramUITests;
+			sourceTree = "<group>";
+		};
+		70E4EE5F27AD85640084586B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				70E4EE5327AC8F380084586B /* Header.swift */,
+				70E4EE5527AC8F530084586B /* Story.swift */,
+				70E4EE5727AC8F6A0084586B /* Stories.swift */,
+				70E4EE5127AC8E960084586B /* PostHeader.swift */,
+				70E4EE5927AC92AC0084586B /* PostContent.swift */,
+				70E4EE5B27AC99B40084586B /* Post.swift */,
+				70E4EE5D27ACA03D0084586B /* TabBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
