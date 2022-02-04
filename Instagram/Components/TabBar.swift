@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TabBar: View {
     var body: some View {
-        VStack {
+        TabView{
             Divider()
             HStack{
                 Image("home")
