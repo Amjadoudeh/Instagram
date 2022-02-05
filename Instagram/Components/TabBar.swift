@@ -31,10 +31,13 @@ struct TabBar: View {
                     Image("shop")
                 }
             
-//            Image("amjad1")
-//                .resizable()
-//                .frame(width: 24, height: 24)
-//                .cornerRadius(50)
+            Image("amjad1")
+                .resizable()
+                .frame(width: 21, height: 21)
+                .cornerRadius(50)
+                .tabItem{
+                    Image("amjad-tap")
+                }
             
         }
     }
